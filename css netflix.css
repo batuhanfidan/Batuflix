@@ -1,9 +1,7 @@
-body { 
-    
+body {     
     background-color: rgb(0, 0, 0);
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 .ana-foto {
@@ -19,13 +17,13 @@ h1 {
 }
 
 .foto-container {
-    background-image:linear-gradient(to bottom, #fcfcfc00, rgb(0, 0, 0)),url(/anafoto.jpeg);
+    background-image:linear-gradient(to bottom, #fcfcfc00, rgb(0, 0, 0)),url(assets/anafoto.jpeg);
     height: 90vh;
     background-size: cover;
     width: 100%;
     z-index: -1;
-
 }
+    
 
 header {
     font-family: 'Times New Roman', Times, serif;
@@ -186,127 +184,127 @@ h2:hover {
 }
 
 .kareler1 {
-    background-image: url(vinland-saga--20953.jpg);
+    background-image: url(/assets/vinland-saga--20953.jpg);
     background-size: 100% 100%;
-    border-radius: 7px;
+    border-radius: 5px;
     transition: 0.5s;
     
 }
 
 .kareler2 {
-    background-image: url(poi.jpg);
+    background-image: url(/assets/poi.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler3{
-    background-image: url(friends.jpg);
+    background-image: url(/assets/friends.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler4{
-    background-image: url(interstaller.jpeg);
+    background-image: url(/assets/interstaller.jpeg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler5{
-    background-image: url(predestination.jpg);
+    background-image: url(/assets/predestination.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler6{
-    background-image: url(green\ book.jpg);
+    background-image: url(/assets/green\ book.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler7{
-    background-image: url(lotr.jpg);
+    background-image: url(/assets/lotr.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler8{
-    background-image: url(titanic.jpg);
+    background-image: url(/assets/titanic.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler9{
-    background-image: url(batman.jpg);
+    background-image: url(/assets/batman.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler10{
-    background-image: url(oppenheimer.jpeg);
+    background-image: url(/assets/oppenheimer.jpeg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler11{
-    background-image: url(godfather.jpg);
+    background-image: url(/assets/godfather.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler12{
-    background-image: url(revenant.jpeg);
+    background-image: url(/assets/revenant.jpeg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler13{
-    background-image: url(john-wick.jpg);
+    background-image: url(/assets/john-wick.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler14{
-    background-image: url(hayri.jpg);
+    background-image: url(/assets/hayri.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler15{
-    background-image: url(karayip.jpeg);
+    background-image: url(/assets/karayip.jpeg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler16{
-    background-image: url(starwars.jpeg);
+    background-image: url(/assets/starwars.jpeg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler17{
-    background-image: url(missionimp.png);
+    background-image: url(/assets/missionimp.png);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
 }
 
 .kareler18{
-    background-image: url(httyd.jpg);
+    background-image: url(/assets/httyd.jpg);
     background-size: 100% 100%;
     border-radius: 7px;
     transition: 0.5s;
@@ -315,132 +313,132 @@ h2:hover {
 
 /*----------------hoverlar--------------*/
 
-.kareler1:hover {
-    background-image: url(anime-vinland-saga.gif);
+.kareler1:hover{
+    background-image: url(/assets/anime-vinland-saga.gif);
     transform: scale(1.5);    
     transition: 0.5s; 
-    transition-delay: 0.5s;
+    transition-delay: 0.4s;
     
     
 }
 
 .kareler2:hover {
-    background-image: url(poigif.gif);
+    background-image: url(/assets/poigif.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
 
 .kareler3:hover {
-    background-image: url(friends.gif);
+    background-image: url(assets/friends.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
 
 .kareler4:hover {
-    background-image: url(interstellar.gif);
+    background-image: url(/assets/interstellar.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
 
 .kareler5:hover {
-    background-image: url(predestination-ethan-hawke.gif);
+    background-image: url(/assets/predestination-ethan-hawke.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
 
 .kareler6:hover {
-    background-image: url(green-book-fried-chicken.gif);
+    background-image: url(/assets/green-book-fried-chicken.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
 
 .kareler7:hover {
-    background-image: url(gandalf.gif);
+    background-image: url(assets/gandalf.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
     
 .kareler8:hover {
-    background-image: url(titanic.gif);
+    background-image: url(assets/titanic.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
     
 .kareler9:hover {
-    background-image: url(darkknight.gif);
+    background-image: url(assets/darkknight.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
     
 .kareler10:hover {
-    background-image: url(oppenheimer.gif);
+    background-image: url(assets/oppenheimer.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
     
 .kareler11:hover {
-    background-image: url(godfather2.gif);
+    background-image: url(assets/godfather2.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
     
 .kareler12:hover {
-    background-image: url(revenant.gif);
+    background-image: url(assets/revenant.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
 
 .kareler13:hover {
-    background-image: url(john-wickgif.gif);
+    background-image: url(assets/john-wickgif.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
 
 .kareler14:hover {
-    background-image: url(hayrigif.gif);
+    background-image: url(assets/hayrigif.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
         
 .kareler15:hover {
-    background-image: url(piratesgif.gif);
+    background-image: url(assets/piratesgif.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
         
 .kareler16:hover {
-    background-image: url(darthvader.gif);
+    background-image: url(assets/darthvader.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
         
 .kareler17:hover {
-    background-image: url(missionimpgif.gif);
+    background-image: url(assets/missionimpgif.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
     
 .kareler18:hover {
-    background-image: url(htt\ gif.gif);
+    background-image: url(assets/htt\ gif.gif);
     transform: scale(1.5);
-    transition: 1s; 
-    transition-delay: 0.5s;
+    transition: 0.5s; 
+    transition-delay: 0.4s;
 } 
     
 /* burdan sonrası footer */
@@ -475,6 +473,7 @@ h2:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem; 
+    justify-content: space-between;
 }
 
 .main-footer-links a {
@@ -494,6 +493,7 @@ h2:hover {
     color: rgb(114, 113, 113);
     font-size: 1rem;
     padding: .5rem
+
 }
 
 .footer-button:hover {
@@ -503,6 +503,8 @@ h2:hover {
 
 
 .span {
+    display: flex;
+    justify-content: space-between;
     color: grey;
     margin-bottom: 0.5rem;
 }
@@ -520,9 +522,9 @@ h2:hover {
     justify-content: center;
     gap: 15px;
     position: relative;
-  }
+}
   
-  .input {
+.input {
     border-style: none;
     height: 25px;
     width: 0px;
@@ -533,19 +535,19 @@ h2:hover {
     background-color: transparent;
     padding-right: 40px;
     color: #fff;
-  }
+}
   
-  .input::placeholder,
-  .input {
+.input::placeholder,
+.input {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
-  }
+}
   
-  .input::placeholder {
+.input::placeholder {
     color: #8f8f8f;
-  }
+}
   
-  .icon {
+.icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -562,14 +564,123 @@ h2:hover {
     transition: .2s linear;
     padding-right: 0;
     gap: 0;
-  }
+}
   
-  .icon:focus ~ .input,
-  .input:focus {
+.icon:focus ~ .input,
+.input:focus {
     box-shadow: none;
     width: 250px;
     border-radius: 0px;
     background-color: transparent;
     border-bottom: 3px solid #ffffff;
     transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-  }
+}
+/* mail ikonu  */
+.tooltip-container {
+    height: 55px;
+    width: 85px;
+    border-radius: 5px;
+    background-color: #fff;
+    background-image: linear-gradient(
+      to left bottom,
+      #f2f5f8,
+      #ecf1f2,
+      #e7eceb,
+      #e3e7e4,
+      #e1e2de
+    );
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.151);
+    position: relative;
+    transition: transform 0.3s ease;
+    
+    
+    
+}
+  
+.tooltip-container::before {
+    position: absolute;
+    content: "";
+    top: -50%;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    border-radius: 5px;
+    background-color: fff;
+    background-image: linear-gradient(
+      to left bottom,
+      #f2f5f8,
+      #e4eaec,
+      #d8dfde,
+      #cdd3cf,
+      #c5c7c1
+    );
+    width: 100%;
+    height: 50%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateX(-150deg) translateY(-110%);
+    transition: transform 0.3s ease;
+    
+}
+  
+.tooltip-container .text {
+    color: rgb(32, 30, 30);
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+  
+.tooltip {
+    position: absolute;
+    top: -20px;
+    opacity: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.05) 1px, white 1px),
+      linear-gradient(rgba(0, 0, 0, 0.05) 1px, white 1px),
+      linear-gradient(-90deg, rgba(0, 0, 0, 0.04) 1px, white 1px),
+      linear-gradient(rgba(0, 0, 0, 0.04) 1px, white 1px),
+      linear-gradient(white 3px, #f2f2f2 3px, #f2f2f2 78px, white 78px),
+      linear-gradient(-90deg, #aaa 1px, white 1px),
+      linear-gradient(-90deg, white 3px, #f2f2f2 3px, #f2f2f2 78px, white 78px),
+      linear-gradient(#aaa 1px, white 1px), #f2f2f2;
+    background-size: 4px 4px, 4px 4px, 80px 80px, 80px 80px, 80px 80px, 80px 80px,
+      80px 80px, 80px 80px;
+    padding: 5px 10px;
+    border: 1px solid rgb(206, 204, 204);
+  
+    height: 70px;
+    width: 110px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.2s;
+    pointer-events: none;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 10px salmon;
+    width: 300px;
+}
+.tooltip-container:hover {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    
+}
+  
+.tooltip-container:hover::before {
+    transform: rotateY(0);
+    background-image: none;
+    background-color: white;
+}
+  
+.tooltip-container:hover .tooltip {
+    top: -90px;
+    opacity: 1;
+    transition-duration: 0.3s;
+    
+}
+
+
+
